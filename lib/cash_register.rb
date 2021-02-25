@@ -37,7 +37,6 @@ class CashRegister
     if @items.empty?
       @total = 0.0
     end
-    
-    
+    binding.pry
   end
 end
