@@ -35,7 +35,7 @@ class CashRegister
     @items.pop
     
     if @items.empty?
-      @total = 0.00
+      @total = 0.0
     end
     
     
